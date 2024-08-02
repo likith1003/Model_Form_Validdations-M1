@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <form method="post">
+            {% csrf_token %}
+            <h1>Student Register</h1>
+            {{ESFO.as_p}}
+            <input type="submit" value="Register">
+        </form>
+    </center>
+</body>
+</html>
